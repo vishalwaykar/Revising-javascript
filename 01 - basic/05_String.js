@@ -114,6 +114,50 @@ myCity.localeCompare()
 const a = 'réservé'; // With accents, lowercase
 const b = 'RESERVE'; // No accents, uppercase
 
-console.log(a.localeCompare(b));
-console.log(a.localeCompare(b, 'en', { sensitivity: 'base' }));
+// console.log(a.localeCompare(b));
+// console.log(a.localeCompare(b, 'en', { sensitivity: 'base' }));
+
+
+//match() method:
+/*
+Matches a string with a regular expression, and returns an array containing the results of that search.
+
+@param regexp — A variable name or string literal containing the regular expression pattern and flags.
+
+syntax:
+(method) String.match(regexp: string | RegExp): RegExpMatchArray | null (+1 overload)
+*/
+const regx = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+// let myEmail = 'vishalwaykar85@gmail.com';//it will written that given string in form of array. e.g. =>  [ 'vishalwaykar85@gmail.com' ]
+// let anotherWrongEmail = 'vishalwaykar85gmail.com';//null
+// console.log(myEmail.match(regx));
+// console.log(anotherWrongEmail.match(regx));
+
+
+/*
+replace() method:
+Replaces text in a string, using a regular expression or search string.
+
+@param searchValue — A string or regular expression to search for.
+
+@param replaceValue — A string containing the text to replace. When the searchValue is a RegExp, all matches are replaced if the g flag is set (or only those matches at the beginning, if the y flag is also present). Otherwise, only the first match of searchValue is replaced.
+*/
+// let anotherWrongEmail = 'vishalwaykar85@gmail.com';//null
+// console.log(anotherWrongEmail.replace('@', ' '));
+
+
+/*
+Finds the first substring match in a regular expression search.
+
+@param searcher — An object which supports searching within a string.
+
+*/
+let anotherWrongEmail = 'vishalwaykar85@gmail.com set';
+console.log(anotherWrongEmail.search(regx));
+
+
+
+
+
+
 
