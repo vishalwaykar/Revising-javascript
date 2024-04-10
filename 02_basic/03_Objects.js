@@ -36,3 +36,11 @@ JsUser.greetingTwo = function(){
 
 console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
+
+
+/*
+Objects:
+- recommended to use dot operator but in some cases we also need to use the square brackets to access the name
+- If we freez the object by Object.freeze method it becomes immutable and we cannot add the values to that object anymore.
+- At least modification is prohibited!
+*/ 
