@@ -81,3 +81,9 @@ console.log(instructor);
 ]
 
 // practice:
+// https://randomuser.me/ 
+// use above free api in order to understand json object in detail
+
+// https://jsonformatter.org/
+
+// use above site to beutify the json
