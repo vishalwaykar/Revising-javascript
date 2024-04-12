@@ -56,3 +56,6 @@ addTwo(5)
 const addTwo = function(num){
     return num + 2
 }
+
+
+// Read about hoisting in more detail for theoratical knowledge.
