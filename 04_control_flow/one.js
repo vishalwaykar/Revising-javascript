@@ -81,4 +81,26 @@ if (loggedInFromGoogle || loggedInFromEmail) {
 }
 
 
+// Notes for control flow One.js
 
+/*
+Comparision operator
+< less than
+> greater than
+== equals
+<= less than equals
+>= greater than equals
+!= not equals
+=== strictly equals(checks type and value of the variable as well)
+truthy values
+falsy values
+
+0, undefined, '', null, NaN, [], {}, ==========> falsy values
+
+
+Interesting thing to know:
+
+false == 0 //true
+false == '' //true
+0 == '' //true
+*/ 
