@@ -1,3 +1,9 @@
+/*
+- We can say that everything is object in JS. For example Function is function in JS but also a Object
+
+
+*/ 
+
 function multipleBy5(num){
 
     return num*5
